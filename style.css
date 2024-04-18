@@ -1,0 +1,80 @@
+body{background-color: olive;
+	margin: 0;
+}
+
+#orionHeader{
+background: linear-gradient(to bottom, white, olive);
+	animation: fadeIn 3s;
+	text-align: center;
+}
+
+#orionPicture{
+  border-radius: 8px;
+  max-width: 190px;
+  height: auto;
+  display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contactInfo{
+	text-align: center;
+	cursor: pointer;
+	animation: fadeIn 3s;
+}
+
+
+#aboutMe{
+	text-align: center;
+	cursor: pointer;
+	background-color: #DAA520; 
+	animation: fadeIn 3s;
+}
+
+#education {
+	text-align: center;
+	cursor: pointer;
+	background-color:#DAA520;
+	animation: fadeIn 3s;
+}
+
+#experience {
+	text-align: center;
+	cursor: pointer;
+	background-color:#DAA520;
+	animation: fadeIn 3s;
+}
+
+#aboutMePicture{
+	width: 280px;
+	border-radius: 8px;
+	animation: fadeIn 3s;
+}
+
+#graduationPicture{
+	width: 280px;
+	border-radius: 8px;
+	animation: fadeIn 3s;
+}
+
+#experienceContent, h2 {
+	text-align: center;
+	cursor: pointer;
+	animation: fadeIn 1.5s;
+}
+
+@keyframes fadeIn {
+from {
+	opacity: 0;
+}
+
+to {
+	opacity: 1;
+}
+}
+
+.content {
+  display: none;
+  background-color: #6B8E23;
+  padding: 10px;
+}
